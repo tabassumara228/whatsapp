@@ -1,0 +1,212 @@
+.whtback{
+    display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: linear-gradient(#009688 0%, #009688 130px, #d9dbd5 30px, #d9dbd5 100%);
+}
+.white{
+    position: relative;
+    /* width: 100%; */
+
+    max-width: 90%;
+    height: 619px ;
+    /* height: calc(100vh-40px) !important; */
+    background: #fff;
+    margin: 0px 40px;
+    box-shadow:  0 1px 1px 0 rgba(0,0,0,0.06), 0 2px 5px 0 rgba(0,0,0,0.06);
+    display: flex;
+}
+.left-side{
+ width: 100%;
+ background: #fff;
+}
+.right-side{
+    background: #e5ddd5;
+}
+.right-side::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(img/pattern.png);   
+    opacity: 0.06;
+}
+.header{
+    position: relative;
+    width: 1133px;
+    height: 60px;
+    background: #d9dbd5;
+    margin: 0px 0px 0px -15px;
+}
+.dp {
+    height: 60px;
+    width: 62px;
+    padding: 10px;
+    border-radius: 31px;
+}
+.nav-icons li{
+    /* display: flex; */
+    list-style: none;
+    cursor: pointer;
+    color: #51585c;
+    font-size: 1.5em;
+    margin-left: 22px;
+}
+ion-icon.nav-icons.md.hydrated {
+    margin-left: 88px;
+    font-size: 21px;
+    padding: 0px 32px 1px 94px;
+}
+ion-icon.nav-icons1.md.hydrated {
+    padding: 0px 23px 0px 0px;
+    font-size: 21px;
+    color: #51585c;
+}
+ion-icon.nav-icons2.md.hydrated {
+    /* padding: 0px 0px 0px 121px; */
+    font-size: 21px;
+    color: #51585c;
+}
+.search-type{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: #f6f6f6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 394px;
+    margin: 0px 0px 0px -15px;
+}
+input[type="text"] {
+    width: 87%;
+    background: white;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+}
+.chat-list{
+    position: relative;
+    height: calc(100%-110px);
+    overflow-y: auto;
+    /* background: #ff0; */
+}
+.block{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-bottom: 1px solid #e2dbdb;
+    cursor: pointer;
+}
+.block :active{
+    background: #ebebeb;
+}
+.chat-list :hover{
+    background: #f5f5f5;
+}
+.img1{
+    position: relative;
+    width: 51px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.details{
+    position: relative;
+    width: 100%;
+}
+.listheader{
+display: flex;
+justify-content: space-between;
+margin-bottom: -8px;
+}
+.name{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #111
+}
+.time{
+    font-size: 0.75em;
+    color: #aaa;
+}
+.message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.how{
+    color: #aaa;
+    display: -webkit-box;
+    font-size: 0.9em;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.noti{
+    background: #06d755;
+    color: #fff;
+    min-width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75em;
+}
+/* .chat-list.block.unread .details .listheader .time{
+    color: #06d755;
+} */
+/* .scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 628px;
+} */
+.left-side {
+    overflow-y: auto;
+    height: 619px;
+    overflow-x: hidden;
+}
+.header1{
+    position: relative;
+    width: 830px;
+    height: 60px;
+    background: #d9dbd5;
+    margin: 0px 0px 0px -15px;
+}
+ion-icon.nav-icons0.md.hydrated {
+    margin-left: 497px;
+    font-size: 21px;
+    padding: 0px 32px 1px 27px;
+}
+ion-icon.nav-icons11.md.hydrated {
+    padding: 0px 23px 0px 0px;
+    font-size: 21px;
+    color: #51585c;
+}
+ion-icon.nav-icons22.md.hydrated {
+    /* padding: 0px 0px 0px 121px; */
+    font-size: 21px;
+    color: #51585c;
+}
+p#chatmessage {
+    background: #fff;
+    border-radius: 0 15px 10px 20px;
+    margin-left: 51px;
+    margin-top: 15px;
+    padding: 8px;
+    /* background: linear-gradient(135deg, #fff 0%, #fff 50%, transparent 50% transparent); */
+}
+span#name8 {
+    font-weight: 600;
+}
+.imagee{
+    display:none;
+}
